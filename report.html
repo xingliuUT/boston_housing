@@ -13735,7 +13735,7 @@ mIhhSc8YY0zEsKRnjDEmYvw/yXlY4dT3aA0AAAAASUVORK5CYII=
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer:</strong> <em>When the model is trained with a maximum depth of 1, it suffers from high bias. When the model is trained with a maximum depth of 10, it suffers from high variance. From the complexity graph, it shows that the validation score increase from maximum depth of 1 to around 4, and then decreases for maximum depth larger than 4. Therefore, a model trained with a maximum depth of 1 underfits and has high bias, whereas a model trained with a maximum depth of 10 overfits and has high variance.</em></p>
+<p><strong>Answer:</strong> <em>When the model is trained with a maximum depth of 1, it suffers from high bias. When the model is trained with a maximum depth of 10, it suffers from high variance. From the complexity graph, it shows that at the maximum depth of 1, both validation score and training score are low. This is a character of an underfitting model. As maximum depth increases from 1 to around 4, training score and validation score go up together which means the model improves as it gets more complicated. However, as maximum depth increases from 4, even though the training score increases, validation score decreases. At maximum depth of 10, validation score is much lower than the training score and this is a character of an overfitting model. Therefore, a model trained with a maximum depth of 1 underfits and has high bias, whereas a model trained with a maximum depth of 10 overfits and has high variance.</em></p>
 
 </div>
 </div>
@@ -13794,7 +13794,7 @@ mIhhSc8YY0zEsKRnjDEmYvw/yXlY4dT3aA0AAAAASUVORK5CYII=
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer: </strong> <em>The grid search is a technique used to tune the hyperparameters in a model by trying out a grid of possible values and train the model with each candidate to find the one that best fit the data. For example, we could try combinations of difference C, degree and gamma values for the SVM model with polynominal kernel.</em></p>
+<p><strong>Answer: </strong> <em>The grid search is a technique used to tune the hyperparameters in a model by trying out a grid of possible values and train the model with each candidate to find the one that best fit the data. There are different approaches to sampling search candidates, GridSearchCV tries out all the possible combinations provided by the grid exhaustively. For example, we could try combinations of difference C, degree and gamma values for the SVM model with polynominal kernel.</em></p>
 
 </div>
 </div>
