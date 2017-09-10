@@ -24,3 +24,7 @@ The modified Boston housing dataset consists of 489 data points, with each datap
 **Target Variable**
 
 4. `MEDV`: median value of owner-occupied homes
+
+### Conclustion
+
+The decision tree model with a maximum depth of 4 chosen by cross validation is applied to the data. However, I don't find the model very useful for several reasons, including the robustness of the model, relavancy of the predictors, as well as the time and location where the data was collected.
